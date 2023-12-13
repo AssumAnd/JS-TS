@@ -1,0 +1,1 @@
+Comentários são utilizados por // ou por /**/ quando mais de uma linha. As linhas de comentários são ignoradas
