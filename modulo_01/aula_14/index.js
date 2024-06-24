@@ -39,7 +39,7 @@ console.log(Number.isInteger(num1))
 // let temp = num1 * 'Olá'
 // console.log(Number.isNaN(temp)); -- true
 //let temp = num1 * '5'
-//console.log(Number.isNaN(temp)); -- true 
+//console.log(Number.isNaN(temp)); -- true
 
 
 // let temp = num1 * '5'
