@@ -13,6 +13,14 @@ amigos.push('Rayssa')
 amigos.push('Kaio')
 amigos.push('Menezes')
 
+
+
+
+
+
+amigos.push('Nathan')
+amigos.push('Hannah')
+amigos.push('Estefany')
 //Método para incluir um índice no começo. 
 //amigos.unshift('Ária')
 
@@ -27,12 +35,5 @@ amigos.push('Menezes')
 //amigos[5] = 'Emmanuel'
 
 //Array é indexado automáticamente sendo 0-1-2-3-4-5. Objetos são similares mas possuem algumas diferenças 
-
-
-
-
-
-
-
 
 console.log(amigos)
