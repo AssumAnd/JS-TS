@@ -4,7 +4,6 @@ function meuEscopo() { //toda e qualquer característica feita em meio ao escopo
     const resultado = document.querySelector('.resultado')
     const pessoas = [];
 
-
     function recebeEventoForm(evento) {
         evento.preventDefault()
         const nome = form.querySelector('.nome')
@@ -12,9 +11,6 @@ function meuEscopo() { //toda e qualquer característica feita em meio ao escopo
         const idade = form.querySelector('.idade')
         const peso = form.querySelector('.peso')
         const filme = form.querySelector('.filme')
-
-
-
         pessoas.push({
             nome: nome.value,
             sobre: sobre.value,
@@ -22,26 +18,19 @@ function meuEscopo() { //toda e qualquer característica feita em meio ao escopo
             peso: peso.value,
             filme: filme.value
         });
-
         console.log(pessoas)
         // evento.preventDefault()
         // console.log(`Form não foi enviado ${contador}`)
         // contador++
-
-
-        resultado.innerHTML += `<p>Seu nome é ${nome.value}, seu sobrenome é ${sobre.value}, sua idade é ${idade.value}, seu peso é ${peso.value} e seu filme favorito é ${filme.value} </p>`
+        resultado.innerHTML += `<p>Seu nome é ${nome.value} </BR>Seu sobrenome é ${sobre.value}</BR> Sua idade é ${idade.value}</BR> Seu peso é ${peso.value} </BR> E seu filme favorito é ${filme.value} </p>`
     }
-
-
     // form.onsubmit = function (evento) {
     //     evento.preventDefault();
     //     alert(1);
     //     console.log('foi enviado');
     // };
-
     form.addEventListener('submit', recebeEventoForm);
     form.push
 }
-
 
 meuEscopo();
